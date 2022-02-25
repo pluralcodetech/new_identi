@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: url('images/imgbg.png') no-repeat center top /cover;
+}
+
+
+.card {
+    background: transparent;
+    max-width: 598px;
+    max-height: 998px;
+    padding: 10px 15px;
+    border-radius: 20.09px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, 
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card-header {
+    background: none;
+    border: none;
+}
+
+.margin-center {
+    margin: 5% auto;
+}
+
+.card-img {
+    width: 50px;
+}
+
+.card-heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .card-heading {
+        padding: 10px;
+        line-height: 30px;
+    }
+
+    .card-paragraph {
+        width: 100%;
+    }
+}
+
+.card-paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+input, input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #F4F5F6;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+}
+
