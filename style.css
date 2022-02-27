@@ -11,6 +11,12 @@ body {
     background: url('images/imgbg.png') no-repeat center top /cover;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        background-position:  bottom;
+    }
+}
+
 .button-signup {
     outline: none !important;
     box-shadow: none;
@@ -30,6 +36,12 @@ body {
     color: #fff;
 }
 
+@media screen and (max-width: 600px) {
+    .button-signup {
+        width: 100%;
+    }
+}
+
 
 .card {
     background: transparent;
@@ -37,8 +49,7 @@ body {
     max-height: 998px;
     padding: 10px 15px;
     border-radius: 20.09px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, 
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .card-header {
@@ -48,6 +59,16 @@ body {
 
 .margin-center {
     margin: 3% auto;
+}
+
+.margin-center2 {
+    margin: 8% auto 12% 28%;
+}
+
+@media screen and (max-width: 1024px) {
+    .margin-center2 {
+        margin: 3% auto;
+    }
 }
 
 .card-img {
@@ -68,7 +89,7 @@ body {
 @media screen and (max-width: 600px) {
     .card-heading {
         padding: 10px;
-        line-height: 30px;
+        line-height: 35px;
     }
 
     .card-paragraph {
@@ -106,6 +127,7 @@ input, input:focus {
 .iti {
     width: 100%;
     margin-top: 3px;
+    margin-bottom: 15px;
 }
 
 
