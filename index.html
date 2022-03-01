@@ -9,6 +9,9 @@
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
+    <!-- Scroll Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--Fontawesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -143,27 +146,65 @@
         </div>
     </section>
 
-    <section id="identity" class="mt-5">
+    <section id="identity" class="mt-5" data-aos="fade-up">
         <div class="container">
             <div class="box-image"></div>
         </div>
     </section>
 
-    <section id="protect">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="protect-image"></div>
+    <div class="protect-community">
+        <div class="community">
+            <section id="protect" class="p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="protect-image"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                            <p class="protect-head mb-5">
+                                Protect the community,
+                                Get help to reconnect using our APIs
+                            </p>
+                            <p class="protect-paragraph mb-5">
+                                Entered some deals with persons who are now <br>unreachable or unavailable? 
+                                <br>Let’s help you reconnect with them using our <br>powerful APIs
+                            </p>
+
+                            <div class="getbutton">
+                                <button class="button-started">Get started<i class="fa fa-arrow-right ml-3"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="section-footer">
+            <div class="container">
+                <div class="d-flex bd-highlight">
+                    <div class="mr-5 bd-highlight terms">Terms</div>
+                    <div class="bd-highlight privacy">Privacy</div>
+                    <div class="ml-auto p-2 bd-highlight"><i class="fab fa-instagram text-light mr-3"></i></div>
+                    <div class=" p-2 bd-highlight"><i class="fab fa-twitter text-light mr-3"></i></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
     <!--Custom Javascript-->
     <script type="text/javascript" src="script.js"></script>
+
+    <!-- JQuery code for page float -->
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 </body>
 </html>

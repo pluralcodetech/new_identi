@@ -7,3 +7,4 @@ let iti = window.intlTelInput(input, {
 let iti2 = window.intlTelInput(input2, {
     utilsScript: 'utils.js'
 })
+
