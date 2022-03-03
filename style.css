@@ -303,7 +303,7 @@ input, input:focus {
 }
 
 .terms, .privacy{
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -345,7 +345,7 @@ input, input:focus {
 }
 
 .about-head {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 52px;
     font-style: normal;
     font-weight: 800;
@@ -356,7 +356,7 @@ input, input:focus {
 }
 
 .about-paragraph {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -385,18 +385,175 @@ input, input:focus {
 }
 
 #about-background {
-    background: url('images/about.png') no-repeat center /cover;
-    width: 100%;
-    height: 400px;
+    background: url('images/brin.png') no-repeat center /cover;
+    max-width: 100%;
+    height: auto;
+    padding: 30px 60px;
 }
 
+
+
 #about-background p {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 70px 60px;
 }
+
+@media screen and (max-width: 600px) {
+    #about-background {
+        padding: 20px;
+    }
+
+    #about-background p {
+        text-align: center;
+    }
+}
+
+#about-footer {
+    background: #EAF7FF;
+}
+
+.card-block {
+    background: #fff;
+    width: 50%;
+}
+
+.card-block p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Reveal and hide styles */
+.read-more {
+    text-decoration: underline;
+    color: #23A6F0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.read-more:hover {
+    text-decoration: none;
+}
+.toggle-btn {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .toggle-btn-visible {
+        display: block;
+    }
+    
+    .toggle-target-hidden {
+        display: none;
+    }
+    
+    .toggle-target-expanded {
+        display: block;
+    }
+}
+
+.verification, .verification2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .verification, .verification2 {
+        flex-direction: column;
+    }
+
+    .verification .check-identi {
+        margin-bottom: 10px;
+    }
+
+    .verification2 .check-identi {
+        margin-bottom: 10px;
+    }
+
+    .check-identi {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width:1000px) {
+    .verification, .verification2 {
+        flex-direction: column;
+    }
+
+    .verification .check-identi {
+        margin-bottom: 20px;
+        width: 650px;
+    }
+
+    .verification2 .check-identi {
+        margin-bottom: 20px;
+        width: 650px;
+    }
+
+}
+
+.check-identi {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 217px;
+    width: 255px;
+    border-radius: 8px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: #23A6F0 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.check-identi p {
+    color: rgb(156, 151, 151);
+}
+
+.check-identi img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.check-identi .tenant {
+    margin-top: 20px;
+}
+
+.view {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0;
+    font-family: "Open aSans", sans-serif;
+    margin: 2% auto;
+    font-weight: 900;
+    background: transparent;
+    color: rgb(95, 92, 92);
+    display: none;
+}
+
+.view:hover {
+    color: #23A6F0;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hide-card {
+        display: none;
+    }
+
+    .view {
+        display: block;
+    }
+}
+
+
