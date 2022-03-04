@@ -699,3 +699,51 @@ textarea, textarea:focus {
     font-size: 13px;
     margin-left: 15px;
 }
+
+.btn1, .btn2 {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 15px;
+    color: #23A6F0;
+    padding: 0;
+}
+
+.btn2 {
+    color: #000000;
+}
+
+.policy {
+    display: none;
+}
+
+.privacy-footer {
+    background-image: linear-gradient(to right, #062E53, #000000);
+}
+
+@media screen and (max-width: 600px) {
+    .flex-mobile {
+        flex-direction: column;
+    }
+    .flex-mobile img {
+        margin-bottom: 20px;
+    }
+
+    .service {
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .service {
+        border: 0;
+    }
+}

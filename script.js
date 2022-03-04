@@ -1,3 +1,4 @@
+
 let input = document.querySelector('#phone');
 let input2 = document.querySelector('#phone2');
 
