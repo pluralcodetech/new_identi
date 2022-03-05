@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500;700&display=swap');
 
+
+
+html {
+    height: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +14,13 @@
 
 #myBody {
     font-family: "Open Sans", sans-serif;
-    background: url('images/imgbg.png') no-repeat center top /cover;
+    background: url('images/imgbg.png') no-repeat center center /cover;
+    max-height: 100%;
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        background-position:  bottom;
+    #myBody {
+        background: #94d3f8;
     }
 }
 
@@ -40,6 +46,8 @@
 @media screen and (max-width: 600px) {
     .button-signup {
         width: 100%;
+        padding: 4px 6px;
+        font-size: 16px;
     }
 }
 
@@ -53,6 +61,7 @@
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+
 .card-header {
     background: none;
     border: none;
@@ -63,8 +72,10 @@
 }
 
 .margin-center2 {
-    margin: 8% auto 12% 28%;
+    margin: 4% auto;
 }
+
+
 
 @media screen and (max-width: 1024px) {
     .margin-center2 {
@@ -85,18 +96,10 @@
     letter-spacing: 0em;
     text-align: center;
     padding: 0;
+    margin-bottom: 30px;
 }
 
-@media screen and (max-width: 600px) {
-    .card-heading {
-        padding: 10px;
-        line-height: 35px;
-    }
 
-    .card-paragraph {
-        width: 100%;
-    }
-}
 
 .card-paragraph {
     font-family: "Open Sans", sans-serif;
@@ -106,6 +109,21 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .card-heading {
+        padding: 10px;
+        line-height: 35px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .card-paragraph {
+        width: 100%;
+        font-size: 13px;
+        padding: 10px;
+    }
 }
 
 input, input:focus {
@@ -151,7 +169,7 @@ textarea, textarea:focus {
 .select {
     padding: 14px;
     box-shadow: none !important;
-    background-color: #fff;
+    background-color: #a59f9f;
     outline: none !important;
     cursor: pointer;
     border-radius: 10px;
@@ -173,12 +191,15 @@ textarea, textarea:focus {
 .select option {
     font-family: "Open Sans", sans-serif;
     background-color: #fff;
-    color: #f2f2f2;
+    color: #3b3a3a;
     margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid #1c1f2c;
     outline: none;
+    padding: 20px;
 }
+
+
 
 /* styling the home page */
 .navbar {
@@ -431,6 +452,7 @@ textarea, textarea:focus {
 
 #about-footer {
     background: #EAF7FF;
+    padding: 40px 30px;
 }
 
 .card-block {
