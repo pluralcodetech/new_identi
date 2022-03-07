@@ -17,40 +17,42 @@
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
+
+    
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/homelogo.png" class="logohome" alt="Responsive image"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-info" style="font-size: 20px;"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="privacy.html">Terms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="terms.html">Privacy</a>
+            </li>
+          </ul>
+          <form class="form-inline">
+              <i class="fab fa-instagram text-light mr-3 d-none d-xs-none d-sm-none d-md-block d-lg-block"></i>
+              <i class="fab fa-twitter text-light mr-3 d-none d-xs-none d-sm-none d-md-block d-lg-block"></i>
+            <button class="button-home" type="button" id="getSign">Sign up<i class="fa fa-arrow-right ml-3"></i></button>
+          </form>
+        </div>
+    </nav>
     <div class="about-box">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="images/homelogo.png" class="logohome" alt="Responsive image"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-ellipsis-h text-info"></i>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="privacy.html">Terms</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="privacy.html">Privacy</a>
-                </li>
-              </ul>
-              <form class="form-inline">
-                  <i class="fab fa-instagram text-light mr-3"></i>
-                  <i class="fab fa-twitter text-light mr-3"></i>
-                <button class="button-home" type="button" id="getSign">Sign up<i class="fa fa-arrow-right ml-3"></i></button>
-              </form>
-            </div>
-        </nav>
 
         <div class="about-hero text-center">
             <p class="about-head">
@@ -64,22 +66,24 @@
         </div>
     </div>
 
-    <section id="about-background" data-aos="fade-up">
-        <div class="container">
-            <p>
-                When people commit to a deal or contract but later become reputably unavailable or unreachable,<br> 
-                it becomes a problem. Identi ensures that they do not enter new deals thereby protecting the <br>
-                community of reputable organisations. <span data-toggle-target=".full-text" data-toggle-text="Hide the full text..." class="toggle-btn read-more">Read the full text...</span><br>
-            </p>
 
-            <div class="full-text">
+    <section id="about-background">
+        <div class="container">
+            <div class="about-background-box">
                 <p>
-                    Our search product is riding on several, multiple and diversified data sources.<br>
-                    Feel free to use our Search product, but be sure to be acquainted with our 
-                    Terms of use and <br>Privacy policy.
+                    When people commit to a deal or contract but later become reputably unavailable or unreachable,<br> 
+                    it becomes a problem. Identtii ensures that they do not enter new deals thereby protecting the <br>
+                    community of reputable organisations. <span data-toggle-target=".full-text" data-toggle-text="Hide the full text..." class="toggle-btn read-more">Read the full text...</span><br>
                 </p>
+    
+                <div class="full-text">
+                    <p>
+                        Our search product is riding on several, multiple and diversified data sources.<br>
+                        Feel free to use our Search product, but be sure to be acquainted with our 
+                        <a href="privacy.html">Terms</a> of use and <br><a href="terms.html">Privacy policy</a>.
+                    </p>
+                </div>
             </div>
-            
         </div>
     </section>
 
@@ -90,19 +94,19 @@
                     <div class="verification">
                         <div class="check-identi">
                             <p>
-                                Before you employ that <br>staff, check Identi
+                                Before you employ that <br>staff, check <a href="selarch.html">Identtii</a>
                             </p>
                             <img src="images/01.png" alt="01">
                         </div>
                         <div class="check-identi">
                             <p>
-                                Before you say yes to <br>that proposal, check <br>Identi
+                                Before you say yes to <br>that proposal, check <br><a href="selarch.html">Identtii</a>
                             </p>
                             <img src="images/02.png" alt="01" class="tenant">
                         </div>
                         <div class="check-identi">
                             <p>
-                                Before you take in that <br>Tenant, check Identi
+                                Before you take in that <br>Tenant, check <a href="selarch.html">Identtii</a>
                             </p>
                             <img src="images/03.png" alt="01">
                         </div>
@@ -114,21 +118,21 @@
                         <div class="verification2 mt-5">
                             <div class="check-identi">
                                 <p>
-                                    Before you approve that Loan request, check Identi
+                                    Before you approve that Loan request, check <a href="selarch.html">Identtii</a>
                                 </p>
                                 <img src="images/04.png" alt="01" class="tenant">
                             </div>
                             <div class="check-identi">
                                 <p>
-                                    Before you grant that VISA, check Identi
+                                    Before you grant that VISA, check <a href="selarch.html">Identtii</a>
                                 </p>
                                 <img src="images/05.png" alt="01">
                             </div>
                             <div class="check-identi">
                                 <p>
-                                    Before you grant that VISA, check Identi
+                                    Before you approve that Buy now Pay later, check <a href="selarch.html">Identtii</a>
                                 </p>
-                                <img src="images/06.png" alt="01">
+                                <img src="images/06.png" alt="01" class="tenant">
                             </div>
                         </div>
                     </div>
@@ -151,7 +155,7 @@
     <script>
         const sign = document.getElementById("getSign");
         sign.addEventListener("click", () => {
-            window.open("/signup.html");
+            window.open("signup.html");
         })
     </script>
 
