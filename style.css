@@ -73,20 +73,31 @@ html {
     margin: 3% auto;
 }
 
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .margin-center {
+        margin: 25% auto;
+    }
+}
 .margin-center2 {
     margin: 4% auto;
 }
 
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     .margin-center2 {
-        margin: 3% auto;
+        margin: 20% auto;
     }
 }
 
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .margin-center2 {
+        margin: 40% auto;
+    }
+}
+
+
+
 .card-img {
-    width: 50px;
+    width: 100px;
 }
 
 .card-heading {
@@ -173,7 +184,7 @@ textarea, textarea:focus {
 .select {
     padding: 14px;
     box-shadow: none !important;
-    background-color: #a59f9f;
+    background-color: #fff;
     outline: none !important;
     cursor: pointer;
     border-radius: 10px;
@@ -266,6 +277,8 @@ textarea, textarea:focus {
     .button-home {
         padding: 5px 10px;
         height: 45px;
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
 }
 
@@ -284,7 +297,7 @@ textarea, textarea:focus {
 
 @media  screen and (max-width: 600px) {
     .hero-img {
-        width: 80%;
+        width: 50%;
     }
 
     .hero p {
@@ -499,7 +512,7 @@ textarea, textarea:focus {
 
 @media screen and (max-width: 600px) {
     .about-hero {
-        left: 6%;
+        left: 2%;
         top: 15%;
     }
     .about-head {
@@ -508,7 +521,7 @@ textarea, textarea:focus {
     }
     .about-paragraph {
         font-size: 16px;
-        /* margin: 2.7px; */
+        font-family: "Open Sans", sans-serif;;
         color: #fff;
         font-weight: 300;
         padding: 10px;
@@ -571,7 +584,7 @@ textarea, textarea:focus {
 
 
 #about-background p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -601,6 +614,11 @@ textarea, textarea:focus {
     padding: 60px 30px;
 }
 
+@media screen and (max-width: 600px) {
+    #about-footer {
+        padding-left: 10px;
+    }
+}
 .card-block {
     background: #fff;
     width: 50%;
@@ -656,15 +674,14 @@ textarea, textarea:focus {
 
     .verification .check-identi {
         margin-bottom: 10px;
+        width: 300px;
     }
 
     .verification2 .check-identi {
         margin-bottom: 10px;
+        width: 300px;
     }
 
-    .check-identi {
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width:700px) and (max-width:1000px) {
@@ -775,6 +792,14 @@ textarea, textarea:focus {
     letter-spacing: 0em;
     text-align: left;
     color: #bdbaba;
+}
+
+.contact-second-paragraph a {
+    text-decoration: none;
+}
+
+.text-info {
+    color: #23A6F0 !important;
 }
 
 .contact-form {
