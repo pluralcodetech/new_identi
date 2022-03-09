@@ -616,10 +616,16 @@ textarea, textarea:focus {
 
 @media screen and (max-width: 600px) {
     #about-footer {
+<<<<<<< HEAD
         padding: 0;
     }
 }
 
+=======
+        padding-left: 10px;
+    }
+}
+>>>>>>> f76d983a9780c8cac285b957f51fb5e0e1716804
 .card-block {
     background: #fff;
     width: 50%;
@@ -674,6 +680,7 @@ textarea, textarea:focus {
     }
 
     .verification .check-identi {
+<<<<<<< HEAD
         margin-top: 40px;
         width: 100%;
     }
@@ -681,11 +688,17 @@ textarea, textarea:focus {
     .verification2 .check-identi {
         margin-top: 40px;
         width: 100%;
+=======
+        margin-bottom: 10px;
+        width: 300px;
     }
 
-    .check-identi {
-        width: 100%;
+    .verification2 .check-identi {
+        margin-bottom: 10px;
+        width: 300px;
+>>>>>>> f76d983a9780c8cac285b957f51fb5e0e1716804
     }
+
 }
 
 @media only screen and (min-width:700px) and (max-width:1000px) {
