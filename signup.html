@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="myBody">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +18,11 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="myBody">
+<body style="background: none;">
     <div class="container">
         <div class="card card-width margin-center">
             <div class="card-header text-center">
-                <img src="images/logo.png" alt="log" class="card-img mb-3">
+                <img src="images/log.png" alt="log" class="card-img mb-3">
                 <p class="card-heading">Create An Account</h2>
                 <p class="card-paragraph">
                     Tell us about your business and we’ll be sure to get across to you
@@ -32,7 +32,7 @@
                 <form>
                     <input type="text" name="name" id="name" class="input mb-3" placeholder="Full Name">
                     <input type="email" name="email" id="email" class="input mb-3" placeholder="Email Address">
-                    <input type="tel" name="phone" class="phone">
+                    <input type="tel" name="phone" class="phone" placeholder="Phone Number">
                     <input type="text" name="business" id="business" class="input" placeholder="Business Name">
                     <select name="busCat" id="busCat" class="input mt-3 select" placeholder="Business">
                         <option disabled selected>Business Category</option>
@@ -44,7 +44,7 @@
                         <option value="employer">Employer</option>
                     </select>
                     <div class="text-center mt-4">
-                        <button class="button-signup" type="button">Create Account</button>
+                        <button class="button-signup" type="button" id="signup">Create Account</button>
                     </div>
                 </form>
             </div>
@@ -62,5 +62,6 @@
 
     <!--Custom Javascript-->
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
